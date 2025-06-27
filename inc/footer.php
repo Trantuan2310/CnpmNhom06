@@ -159,13 +159,13 @@
 
     xhr.onload = function(){
       if(this.responseText == 'inv_email_mob'){
-        alert('error',"Email hoặc số điện thoại không đúngđúng!");
+        alert('error',"Tài khoản không tồn tại");
       }
       else if(this.responseText == 'inactive'){
         alert('error',"Toàn khoản bị khoá! Vui lòng liên hệ Quản trị viên.");
       }
       else if(this.responseText == 'invalid_pass'){
-        alert('error',"Mật khẩu không đúng!");
+        alert('error',"Sai mật khẩu!");
       }
       else{
         let fileurl = window.location.href.split('/').pop().split('?').shift();

@@ -1,13 +1,13 @@
 <?php 
 
-  define('SITE_URL','http://localhost:/Hotel/');
+  define('SITE_URL','http://localhost:/CnpmNhom06/');
   define('ABOUT_IMG_PATH',SITE_URL.'images/about/');
   define('CAROUSEL_IMG_PATH',SITE_URL.'images/carousel/');
   define('FACILITIES_IMG_PATH',SITE_URL.'images/facilities/');
   define('ROOMS_IMG_PATH',SITE_URL.'images/rooms/');
   define('USERS_IMG_PATH',SITE_URL.'images/users/');
 
-  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/Hotel/images/');
+  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/CnpmNhom06/images/');
   define('ABOUT_FOLDER','about/');
   define('CAROUSEL_FOLDER','carousel/');
   define('FACILITIES_FOLDER','facilities/');
